@@ -1,0 +1,217 @@
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0px 0px;
+  /* background-color: red; */
+  /* text-align: center; */
+}
+
+.Navbar {
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+}
+.nike-logo {
+  margin-right: auto;
+  width: 45px;
+  margin-left: 40px;
+}
+.nav-items {
+  margin: 10px 40px;
+  padding: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.nav-items:hover {
+  background-color: rgb(205, 255, 0);
+  color: black;
+  border-radius: 3px;
+}
+
+/* hero sections */
+
+.hero-navbar {
+  display: flex;
+  /* padding: 10px;  */
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.nike-lime-logo {
+  width: 70px;
+  max-width: 100vw;
+  margin-right: 15%;
+  margin-left: 8%;
+  padding: 0px;
+}
+.hero-items {
+  padding: 15px;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.hero-items:hover {
+  background-color: rgb(205, 255, 0);
+  color: black;
+  border-radius: 8px;
+}
+.wishlist {
+  padding: 15px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.wishlist:hover {
+  background-color: rgb(205, 255, 0);
+  color: black;
+  border-radius: 8px;
+}
+#SearchBar {
+  padding: 10px 10px;
+  margin-left: 180px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border: 0px solid black;
+}
+.hero-photo {
+  width: 80vh;
+  /* align-items: center; */
+  width: 90vw;
+  padding: 10px 70px;
+  height: 90vh;
+  margin: auto;
+}
+
+/* feature section */
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  position: relative;
+}
+.feature-image {
+  width: 75%;
+
+  margin: 10px 60px;
+}
+.feature-card-img-overlay {
+  position: absolute;
+  top: 350px;
+  left: 80px;
+  color: rgb(205, 255, 0);
+  font-weight: bold;
+}
+
+.feature-btn {
+  background-color: rgb(205, 255, 0);
+  color: black;
+}
+
+/* shopping card */
+.flex_box {
+  display: grid;
+}
+.display_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  padding: 30px;
+  /* background-color: pink; */
+  justify-content: space-evenly;
+  text-align: left;
+  gap: 20px;
+}
+
+.shopping_details {
+  width: 300px;
+  padding: 30px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: rgba(222, 232, 235, 0.836);
+  /* align-items: end; */
+  grid-column: 2/3;
+}
+.card-name {
+  margin-top: 10px;
+}
+.card_general {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.card-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+.card-price {
+  margin-right: auto;
+  font-weight: bold;
+}
+.card-category {
+  margin-right: 5px;
+}
+.shoe-availabe {
+  position: relative;
+}
+.card-stocks {
+  position: absolute;
+  top: 8px;
+  left: 100px;
+}
+.card-stocks {
+  background-color: rgb(235, 232, 232);
+  font-weight: bold;
+  border-radius: 20px;
+  width: 60%;
+  text-align: center;
+  padding: 5px;
+}
+.shopping_details>.nike {
+  width: 150px;
+  /* align-items: end; */
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+}
+.nike:hover {
+  background-color: rgb(205, 255, 0);
+  color: black;
+  border-radius: 8px;
+  border: 0px;
+}
+.card-category {
+  position: absolute;
+
+  font-weight: bold;
+  border-radius: 20px;
+
+  text-align: center;
+
+  top: 210px;
+  left: 150px;
+}
+
+.items {
+  width: 200px;
+  color: black;
+  font-size: larger;
+}
+.items:hover {
+  background-color: rgb(205, 255, 0);
+  color: black;
+  border-radius: 8px;
+  border: 0px;
+}
+.wishlist {
+  /* width: 150px; */
+  /* align-items: end; */
+  /* background-color: aqua; */
+  margin-top: 30px;
+}
